@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd">
+    <bannerLeft>
+        <name>Raiffeisen Software GmbH</name>
+        <src>/images/raiffeisensoftware_logo.png</src>
+        <href>https://www.r-software.at/</href>
+        <height>40</height>
+    </bannerLeft>
+    <bannerRight>
+        <name>${project.artifactId}</name>
+    </bannerRight>
+
+    <body>
+
+        <menu name="Maven 2.0b">
+            <item name="Introduction" href="index.html"/>
+            <item name="Download" href="download.html"/>
+            <item name="Release Notes" href="release-notes.html" />
+            <item name="General Information" href="about.html"/>
+            <item name="For Maven 1.x Users" href="maven1.html"/>
+            <item name="Road Map" href="roadmap.html" />
+        </menu>
+
+        <menu ref="reports"/>
+
+    </body>
+</project>
