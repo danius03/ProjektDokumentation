@@ -40,58 +40,70 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
 
 h1 {
   padding: 4px 4px 4px 6px;
-  border: 1px solid #999;
-  color: #83227a;
-  background-color: #ddd;
-  font-weight:900;
+  border: none;
+  color: #000;
+  font-weight: bold;
   font-size: x-large;
 }
 h2 {
   padding: 4px 4px 4px 6px;
-  border: 1px solid #aaa;
-  color: #bb1a44;
-  background-color: #eee;
+  border: none;
+  color: #000;
+  background-color: #fff;
   font-weight: normal;
-  font-size: large;
+  font-size: x-large;
 }
 h3 {
   padding: 4px 4px 4px 6px;
-  border: 1px solid #bbb;
-  color: #de5328;
+  border: none;
+  color: #000;
   background-color: #fff;
-  font-weight: normal;
+  font-weight: bold;
   font-size: large;
 }
 h4 {
   padding: 4px 4px 4px 6px;
-  color: #f5971e;
-  font-size: medium;
+  border: none;
+  color: #000;
+  font-size: large;
 }
 h5 {
   padding: 4px 4px 4px 6px;
-  color: #0f0;
+  color: #000;
+  font-weight: normal;
   font-size: medium;
 }
 p {
   line-height: 1.3em;
   font-size: small;
 }
+hr {
+    background-color: #0f0;
+}
+
 #breadcrumbs {
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
-  background-color: #ccc;
+  display: none;
 }
 #leftColumn {
-  margin: 10px 0 0 5px;
-  border: 1px solid #999;
+  margin: 0;
+  border: none;
   background-color: #eee;
-  padding-bottom: 3px; /* IE-9 scrollbar-fix */
+  height: 100%;
+  padding: 0;
 }
 #navcolumn h5 {
-  font-size: smaller;
-  border-bottom: 1px solid #aaaaaa;
-  padding-top: 2px;
+  font-size: small;
+  border: none;
+  padding-top: 10px;
   color: #000;
+}
+li.none > a {
+  font-size: small;
+  color: #731647;
+}
+.none > strong {
+  font-size: small;
+  color: #731647;
 }
 
 table.bodyTable th {
@@ -114,8 +126,8 @@ table.bodyTable tr.b {
 }
 
 .source {
-  border: 1px solid #999;
-  background: #eee;
+  border: 2px solid #dcdcdc;
+  background: #dcdcdc;
 }
 dl {
   padding: 4px 4px 4px 6px;
@@ -130,6 +142,9 @@ dt {
 }
 #banner {
   border-bottom: 1px solid #fff;
+  padding: 5px;
+  padding-left: 15px;
+  background: #b8a88b;
 }
 
 .errormark, .warningmark, .donemark, .infomark {
@@ -147,3 +162,10 @@ dt {
 .infomark {
   background-image: url(../images/icon_info_sml.gif);
 }
+
+#lastPublished {
+    font-size: xx-small;
+    color: #939393;
+}
+
+
