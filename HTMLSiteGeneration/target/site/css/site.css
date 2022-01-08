@@ -85,11 +85,11 @@ hr {
   display: none;
 }
 #leftColumn {
-  margin: 0;
   border: none;
   background-color: #eee;
   height: 100%;
   padding: 0;
+  margin-left: .8rem;
 }
 #navcolumn h5 {
   font-size: small;
