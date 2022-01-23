@@ -2,28 +2,34 @@
 <project xmlns="http://maven.apache.org/DECORATION/1.8.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd">
+
     <bannerLeft>
         <name>Raiffeisen Software GmbH</name>
         <src>/images/raiffeisensoftware_logo.png</src>
         <href>https://www.r-software.at/</href>
-        <height>40</height>
+        <height>45</height>
     </bannerLeft>
     <bannerRight>
         <name>${project.artifactId}</name>
     </bannerRight>
 
+    <publishDate position="navigation-top" format="dd.MM.yyyy"/>
+    <version position="navigation-top"/>
+    <poweredBy>
+        <logo name="Test" href="https://www.r-software.at/" img="/images/raiffeisensoftware_logo.png" height="40rem"/>
+    </poweredBy>
+
     <body>
 
-        <menu name="Maven 2.0b">
+        <menu name="Project Information">
             <item name="Introduction" href="index.html"/>
-            <item name="Download" href="download.html"/>
-            <item name="Release Notes" href="release-notes.html" />
-            <item name="General Information" href="about.html"/>
-            <item name="For Maven 1.x Users" href="maven1.html"/>
-            <item name="Road Map" href="roadmap.html" />
+            <item name="Changelog" href="changelog.html"/>
         </menu>
 
-        <menu ref="reports"/>
+        <menu name="Project Documentation">
+            <item name="test" href="test.html"/>
+        </menu>
 
+        <footer><![CDATA[© Raiffeisen Software GmbH]]></footer>
     </body>
 </project>
