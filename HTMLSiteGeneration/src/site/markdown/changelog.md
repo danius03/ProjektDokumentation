@@ -3,9 +3,5 @@
 ---
 ---
 
-Seite: README2.md  => Wichtigkeit: 100
-
-Seite: MdFile11.md  => Wichtigkeit: 80
-
-Seite: MdFile11.md  => Wichtigkeit: 70
+Seite: README.md  => Codeblock: at.diggah.lost.Test2.Test2_oneTwoThree_1  => Wichtigkeit: 100
 

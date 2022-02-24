@@ -28,6 +28,7 @@
 
         <menu name="Project Documentation">
             <item name="test" href="test.html"/>
+            <item name="README" href="/documentation/TestProject/main/resources/README.html"/>
         </menu>
 
         <footer><![CDATA[© Raiffeisen Software GmbH]]></footer>

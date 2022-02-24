@@ -27,10 +27,10 @@
             <version>1.0</version>
         </dependency>
         <dependency>
-        <groupId>org.example</groupId>
+            <groupId>org.example</groupId>
             <artifactId>TestProject</artifactId>
             <version>1.0-SNAPSHOT</version>
-    </dependency>
+         </dependency>
 
         <dependency>
             <groupId>commons-io</groupId>
@@ -47,6 +47,7 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.11</version>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -83,6 +84,21 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.changelogger</groupId>
+                <artifactId>changelogger-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>changelogger</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                </configuration>
             </plugin>
         </plugins>
     </build>
